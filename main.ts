@@ -1,7 +1,4 @@
 
-
-    {
-        // string tests
         const ws = new WebSocket("https://arcade.makecode.com/")
         ws.onerror = () => console.log("error")
         ws.onmessage = (msg) => {
@@ -16,4 +13,3 @@
                 pause(1000)
             })
         }
-    }
